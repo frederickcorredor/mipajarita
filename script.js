@@ -10,3 +10,15 @@ function moverAleatoriamente(btn) {
 btnNo.addEventListener("mouseenter", function (e) {
     moverAleatoriamente(e.target)
 })
+
+let diapo2 = () => {
+    document.querySelector("#diapo1").style.display = "none";
+    document.querySelector("#diapo2").style.display = "flex";
+    document.querySelector("#diapo3").style.display = "none";
+}
+
+let diapo3 = () => {
+    document.querySelector("#diapo1").style.display = "none";
+    document.querySelector("#diapo2").style.display = "none";
+    document.querySelector("#diapo3").style.display = "flex";
+}

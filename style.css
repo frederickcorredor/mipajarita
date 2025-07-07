@@ -44,3 +44,7 @@ body {
     box-shadow: 0.5rem 1rem 3rem hsl(0, 0, 0,0.3);
 
 }
+
+#diapo2,#diapo3 {
+    display: none;
+}
